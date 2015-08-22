@@ -1,0 +1,22 @@
+{
+  "name": "Es6",
+  "version": "0.0.0",
+  "description": "The aim of this repo is to provide explanations and examples for new Es6 features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "babel-node": "./node_modules/babel-node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjaminlees/Es6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminlees/Es6/issues"
+  },
+  "dependencies": {
+    "babel": "^5.8.21"
+  }
+}

@@ -1,6 +1,13 @@
 #  Es6
 
-The aim of this repo is to provide explanations and examples for new Es6 features. A branch will be created for each feature, with a separate README, examples and problems.
+The aim of this repo is to provide explanations and examples for new Es6 features.
+
+A branch will be created for each feature, with the following structure:
+
+- .md file with a brief explanation of the feature.
+- folder for examples.
+- folder for assignments/ problems.
+
 
 ## Douglas Crockfords Guide To Es6
 
