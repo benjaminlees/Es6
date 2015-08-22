@@ -27,6 +27,11 @@ A branch will be created for each feature, with the following structure:
   - destructuring
   - weakmap
 
-  ## Getting started
+## Getting started
 
-  
+```
+// -- Terminal window -- \\
+git clone https://github.com/benjaminlees/Es6.git
+cd Es6
+npm install
+```
