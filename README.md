@@ -35,3 +35,6 @@ git clone https://github.com/benjaminlees/Es6.git
 cd Es6
 npm install
 ```
+We are going to use babel to convert Es6 to Es5.
+
+To run a Es6 file using node either use node-babel by using the path to the .bin/babel-node or by globally installing babel.
