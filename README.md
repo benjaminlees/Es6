@@ -18,7 +18,7 @@ A branch will be created for each feature, with the following structure:
 
   If you wish to get familiar with all the available features please checkout this awesome repo [es6features](https://github.com/lukehoban/es6features#default--rest--spread).
 
-  ### Douglas Crockfords The Better Parts
+### Douglas Crockfords The Better Parts
 
   - proper tail calls
   - spread/ ellipses  
