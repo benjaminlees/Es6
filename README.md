@@ -23,7 +23,7 @@ A branch will be created for each feature, with the following structure:
   - proper tail calls
   - spread/ ellipses  
   - import/export
-  - let
+  - let/ const
   - destructuring
   - weakmap
 
