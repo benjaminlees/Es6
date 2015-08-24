@@ -3,28 +3,32 @@
 The spread operator is a new parameter that can be passed to functions to indicate there will be a varying number of arguments. It provides a simpler way of accessing the parameters that a function is called with, instead of using the `arguments ` object. Also referred to as the *rest operator* or *ellipses*.
 
 ```
-function myFunc(...args) {
-  console.log(args);
+function doubler(...args) {
+  return args.map(function(el) {
+    return el * 2;
+  });
 }
 ```
 
 If you wanted to write the equivalent in es5 it would be:
 
 ```
-function myFunc() {
+function doubler() {
   var args = Array.prototype.slice.call(arguments);
-  console.log(args);
+  return args.map(function(el) {
+    return el * 2;
+  });
 }
 ```
 
 The spread operator differs from the `arguments ` object in that is a real array, so methods such as `map ` and `reduce ` work, whereas the `arguments ` object is an array-like object that you must convert into an array before operating on. Also, the `arguments ` object contains every parameter passed in, while the spread operator creates an array of parameters from the parameters following it.
 
 ```
-function myFunc(a, b, ...z) {
+function logger(a, b, ...z) {
   console.log(z)
 }
 
-myFunc(1, 2, 3, 4, 5, 6, 7);
+logger(1, 2, 3, 4, 5, 6, 7);
 > [3,4,5,6,7]
 ```
 
