@@ -21,7 +21,7 @@ A branch will be created for each feature, with the following structure:
 ### Douglas Crockfords The Better Parts
 
   - proper tail calls
-  - spread/ ellipses  
+  - spread/ ellipses
   - import/export
   - let/ const
   - destructuring
@@ -38,3 +38,5 @@ npm install
 We are going to use babel to convert Es6 to Es5.
 
 To run a Es6 file using node either use node-babel by using the path to the .bin/babel-node or by globally installing babel.
+
+If you want to experiment with es6 in the browser, visit [babel's repl.it equivalent](https://babeljs.io/repl/), which allows you to write es6, shows the transpiled es5 code and the output.
