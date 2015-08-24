@@ -20,7 +20,7 @@ var obj = {
   }
 };
 
-obj.german.cars.flashy = 'mercedes';
+obj.cars.german.flashy = 'mercedes';
 
 obj.animals.fish.large = 'shark'
 
