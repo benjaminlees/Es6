@@ -2,7 +2,7 @@
 
 Template strings do not introduce new functionality but instead provide a much more readable and succint way of creating strings that contain variables. They allow you to enclose an expression inside a pair of curly brackets, inside a string, and this expression is evaluated and combined with the rest of the string literal.
 
-The whole string must be surrounded by backticks, ` `this is a string` `, and these are also valid to use as quote marks to create normal strings. Any expression to be included in the string must be surround by curly brackets and prefixed with a dollar symbol, `${myVar} `.
+The whole string must be surrounded by backticks, ``` `this is a string` ```, and these are also valid to use as quote marks to create normal strings. Any expression to be included in the string must be surround by curly brackets and prefixed with a dollar symbol, `${myVar} `.
 
 ```
 let dinner = "pizza";
