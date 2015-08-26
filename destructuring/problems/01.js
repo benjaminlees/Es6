@@ -1,5 +1,5 @@
-// below I have altered an object in the standard way one
-//would using Es5 please re-create this using Es6 destructuring
+/* Below, an object has been altered in the standard way
+using Es5 please re-create this using Es6 destructuring*\
 
 var obj = {
   cars: {
