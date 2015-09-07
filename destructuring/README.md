@@ -26,3 +26,19 @@ let david = ({name:'david', details: {height: '5ft', hair:brown}}) => {
 david({height: '6ft', hair:black});
 // this would print '6ft' in the console
 ```
+
+```
+function drawES5Chart(options) {
+  options = options === undefined ? {} : options;
+    var size = options.size === undefined ? 'big' : options.size;
+    var cords = options.cords === undefined ? { x: 0, y: 0 } : options.cords;
+    var radius = options.radius === undefined ? 25 : options.radius;
+    console.log(size, cords, radius);
+    // now finally do some chart drawing
+}
+
+drawES5Chart({
+  cords: { x: 18, y: 30 },
+    radius: 30
+});
+```
