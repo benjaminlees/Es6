@@ -13,7 +13,7 @@ let f = () => {
   return [1,2];
 }
 
-[a.b] = f();
+let [a.b] = f();
 // variable a now equals 1 and variable equals 2
 ```
 
