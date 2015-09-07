@@ -27,7 +27,9 @@ david({height: '6ft', hair:'black'});
 // this would print '6ft' in the console
 ```
 
-```
+Here is another example from MDN of providing defaults to a function (Without destructuring first):
+
+```js
 function drawES5Chart(options) {
   options = options === undefined ? {} : options;
     var size = options.size === undefined ? 'big' : options.size;
@@ -40,5 +42,18 @@ function drawES5Chart(options) {
 drawES5Chart({
   cords: { x: 18, y: 30 },
     radius: 30
+});
+```
+
+```js
+function drawES6Chart({size = 'big', cords = { x: 0, y: 0 }, radius = 25} = {}) 
+{
+  console.log(size, cords, radius);
+  // do some chart drawing
+}
+
+drawES6Chart({
+  cords: { x: 18, y: 30 },
+  radius: 30
 });
 ```
