@@ -20,9 +20,9 @@ let f = () => {
 With objects the destructuring assignment matches object properties instead of array indices this allows for some cool ways of structuring arguments for functions which are designed to take an object with a known structure.
 
 ```
-let david = ({name:'david', details: {height: '5ft', hair:brown}}) => {
+let david = ({name: david, details: {height: ft, hair:brown}}) => {
   console.log(details.height);
 }
-david({height: '6ft', hair:black});
+david({height: '6ft', hair:'black'});
 // this would print '6ft' in the console
 ```
