@@ -1,8 +1,8 @@
 # Should We Use This ?
 
-Although ```this``` is not a new feature of es6 Douglas Crockford discussed the negatives of using ```this``` in [The Better Parts](https://www.youtube.com/watch?v=PSGEjv3Tqo0).
+Although `this` is not a new feature of es6 Douglas Crockford discussed the negatives of using `this` in [The Better Parts](https://www.youtube.com/watch?v=PSGEjv3Tqo0).
 
-Douglas explains that in 2007 a bunch of JavaScript enthusiasts went about trying to make JavaScript more secure so that third party code could run without interfering with the JavaScript applications. Douglas realized that the main issue which prevented the improved security of JavaScript was the use of ```this```.
+Douglas explains that in 2007 a bunch of JavaScript enthusiasts went about trying to make JavaScript more secure so that third party code could run without interfering with the JavaScript applications. Douglas realized that the main issue which prevented the improved security of JavaScript was the use of `this`.
 
 'If this is used in a method this gets down to the object of interest but if you take that method and call it as a function this gets down to the global object which destroys all security' *Douglas Crockford*.
 
