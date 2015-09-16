@@ -2,16 +2,10 @@
 // The function may be called with any number of parameters
 
 
-function isDivisible() {
-  // todo
-}
+const isDivisible = (a, ...args) => args.every(el => a % el === 0);
 
-isDivisible(10, 2, 5);
-> true
+console.log(isDivisible(10, 2, 5));
 
-isDivisible(10, 5, 3);
-> false
+console.log(isDivisible(10, 5, 3));
 
-isDivisible(150, 15, 10, 5, 3, 1, 6, 75, 50, 150, 30, 25, 2);
-> true
-
+console.log(isDivisible(150, 15, 10, 5, 3, 1, 6, 75, 50, 150, 30, 25, 2));
