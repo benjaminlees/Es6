@@ -23,4 +23,4 @@ If the rather crude example above were to be written into a console it would fir
 
 To get around this security floor Douglas recommends that one should not use this at all.
 
-For a more detailed explanation see [Don’t use this in JavaScript](docs.google.com/document/d/1uztGvSE8nxjQwJtCorQUiNM9irjIoomhFuhLfghDC0o/edit).
+For a more detailed explanation see [Don’t use this in JavaScript](https://luizfar.wordpress.com/2012/04/28/dont-use-this-in-javascript/).
