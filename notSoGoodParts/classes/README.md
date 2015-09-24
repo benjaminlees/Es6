@@ -1,12 +1,12 @@
 # Classes
 
-Classes are a code template or blue print for building an object and they are generally associated with the OO model.
+Classes are a code template or blue print for building an object and they are generally associated with the OO model. Languages such as java and c# classes use classical inheritance whilst JavaScript uses porotypal inheritance.
 
-Douglas Crockford as
+Douglas Crockford problem with classical classes stems from the fact that your forced to do classification and taxonomy. So when a project begins you have to classify what kind of objects you are going to need and how they are going to relate to one another. The problem with this is that as you get further into a project things change and you find that you have to re    factor all these classes and all the relationships.
 
-The Idea of classes in Es6 is to mimic the syntax which is typically seen in object oriented languages such as java. So to better explain es6 classes we must start with a typical java class and then progress through JavaScript pototypal inheritance to es6 classes.
+However, with JavaScript prototypal classes do not require all of this clasification and taxonomy. Instead you just make objects and thats it. Now the issue with the new es6 classes is that it forces the classical style of inheritance.
 
-In languages such as c# and java a class constructor is used to create objects.
+In languages such as c# and java a class inheritance is described as classical as opposed to prototypal.
 
 ```
 public class Point {
@@ -20,7 +20,7 @@ public class Point {
 }
 ```
 
-Here is a class called point with two variables which are both ints and a method which takes two parameters and assigns the variables x and y to the parameters values.
+Here is a class called point, written in java, with two variables which are both ints and a method which takes two parameters and assigns the variables x and y to the parameters values.
 
 ```
 Point originOne = new Point(23, 94);
@@ -85,3 +85,5 @@ Below is an example of this class being instantiated.
 let point = new Point(1, 2);
 console.log(point.y) // 2
 ```
+
+Douglas Crockford states that originaly prototypal inheritance was cool as it used shallow copying at a time when memory was in short supply. But now with the vast amount of memory that most devices have and the improvements in JavaScript garbage collectors we might as well just copy objects instead.
