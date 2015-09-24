@@ -1,12 +1,12 @@
 # Classes
 
-Classes are a code template or blue print for building an object and they are generally associated with the OO model. Languages such as java and c# classes use classical inheritance whilst JavaScript uses porotypal inheritance.
+Classes are a code template or blueprint for building an object and they are generally associated with the OO model. Languages such as java and c# classes use classical inheritance whilst JavaScript uses prototypal inheritance.
 
-Douglas Crockford problem with classical classes stems from the fact that your forced to do classification and taxonomy. So when a project begins you have to classify what kind of objects you are going to need and how they are going to relate to one another. The problem with this is that as you get further into a project things change and you find that you have to re    factor all these classes and all the relationships.
+Douglas Crockford problem with classical classes stems from the fact that you're forced to do classification and taxonomy. So when a project begins you have to classify what kind of objects you are going to need and how they are going to relate to one another. The problem with this is that as you get further into a project things change and you find that you have to re    factor all these classes and all the relationships.
 
 However, with JavaScript prototypal classes do not require all of this clasification and taxonomy. Instead you just make objects and thats it. Now the issue with the new es6 classes is that it forces the classical style of inheritance.
 
-In languages such as c# and java a class inheritance is described as classical as opposed to prototypal.
+In languages such as c# and java, classes inheritance is described as classical as opposed to prototypal.
 
 ```
 public class Point {
