@@ -2,6 +2,10 @@
 
 Classes are a code template or blue print for building an object and they are generally associated with the OO model.
 
+Douglas Crockford as
+
+The Idea of classes in Es6 is to mimic the syntax which is typically seen in object oriented languages such as java. So to better explain es6 classes we must start with a typical java class and then progress through JavaScript pototypal inheritance to es6 classes.
+
 In languages such as c# and java a class constructor is used to create objects.
 
 ```
@@ -38,7 +42,7 @@ let Point = {
 ```
 Above an object has been created and the variable obj has been declared and assigned the reference to this object.
 
-Now we wanted to create a new object which has all the properties of obj we can declare a new variable and assign the value of the variable obj to the new variables prototype.
+Now if we wanted to create a new object which has all the properties of obj we can declare a new variable and assign the value of the variable obj to the new variables prototype.
 
 For this we use the Object.create method in JavaScript which basically does the following.
 
@@ -67,11 +71,17 @@ Now the main idea of the new class feature in JavaScript is to take prototypal i
 
 ```
 class Point {
-    let x = 0;
-    let y = 0;
-    constructor(x, y) {
+    constructor(x = 0, y = 0) {
         this.x = x;
         this.y = y;
     }
 }
+```
+The example above represents an es6 class the 'x = 0' means that if no argument is provided for x set x to 0 and is an es6 feature in itself.
+
+Below is an example of this class being instantiated.
+
+```
+let point = new Point(1, 2);
+console.log(point.y) // 2
 ```
