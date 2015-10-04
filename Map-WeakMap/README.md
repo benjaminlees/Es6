@@ -4,7 +4,7 @@ Map and WeakMap are new data structures that have been introduced in es6. To pro
 
 ##  Objects
 
-In JavaScript when a variable is declared and then assigned a value, it is actually assigned a reference to where the value exists in memory. If a variable is assigned a new value its reference now points to where this new value exists in memmory. If a value has no references that point to it the garbage collector removes it from memory. 
+In JavaScript when a variable is declared and then assigned a value, it is actually assigned a reference to where the value exists in memory. If a variable is assigned a new value its reference now points to where this new value exists in memory. If a value has no references that point to it the garbage collector removes it from memory. 
 
 But what happens when a new variable is declared and assigned to another variable?
 
