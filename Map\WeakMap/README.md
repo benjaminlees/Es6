@@ -70,4 +70,6 @@ console.log(wm.get(c)); // undefined
 
 In the example above `c` is assigned the reference to the object `{ c: '50' }` so when `c` is set as a key in the WeakMap wm that key is assigned a new reference to the object `{ c: '50' }`. However as that reference is weak when `c` is assigned a new reference the object `{ c: '50' }` is collected by the garbage collector and therefore when calling `wm.get(c)` nothing is returned.
 
+If you are still finding it hard to imagine a use case for WeakMaps see [What are the actual uses of ES6 WeakMap?](http://stackoverflow.com/questions/29413222/what-are-the-actual-uses-of-es6-weakmap)
+
 
