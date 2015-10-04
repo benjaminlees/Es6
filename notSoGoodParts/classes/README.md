@@ -1,6 +1,6 @@
 # Classes
 
-Classes are a code template or blueprint for building an object and they are generally associated with the OO model. Languages such as java and c# classes use classical inheritance whilst JavaScript uses prototypal inheritance.
+Classes are a code template or blueprint for building an object and they are generally associated with the object-oriented model. In languages such as java and c# classes use classical inheritance whilst JavaScript uses prototypal inheritance.
 
 Douglas Crockford problem with classical classes stems from the fact that you're forced to do classification and taxonomy. So when a project begins you have to classify what kind of objects you are going to need and how they are going to relate to one another. The problem with this is that as you get further into a project things change and you find that you have to re    factor all these classes and all the relationships.
 
